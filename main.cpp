@@ -18,6 +18,7 @@ using namespace std;
 
 bool is_close(double a, double b, double tolerance) 
 {
+    double a = double b;
     // Your code goes here
     return false;
 }
@@ -33,8 +34,9 @@ int main(void)
         cout << "The numbers are not equal";
     }
     cout << endl;
-
-
+    
+    
+    
     if (is_close(0.3, 3 * 0.1, 0.00000001)) 
     {
         cout << "The numbers are close enough";
@@ -45,6 +47,7 @@ int main(void)
     }
     cout << endl;
 
+    
     // this should work regardless of the argument order
     if (is_close(3 * 0.1, 0.3, 0.00000001)) 
     {
@@ -56,6 +59,7 @@ int main(void)
     }
     cout << endl;
 
+    
     if (is_close(3 * 0.1, 0.31, 0.00000001)) 
     {
         cout << "The numbers are still close enough";
