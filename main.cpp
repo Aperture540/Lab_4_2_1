@@ -18,8 +18,13 @@ using namespace std;
 
 bool is_close(double a, double b, double tolerance) 
 {
-    double a = double b;
-    // Your code goes here
+    float fa = a, fb = b;
+    
+    if(fa == fb)
+    {
+        return true;
+    }
+    
     return false;
 }
 
@@ -72,3 +77,10 @@ int main(void)
 
     return 0;
 }
+
+/*
+ * The numbers are not equal
+ * The numbers are close enough
+ * The numbers are still close enough
+ * The numbers are not close enough 
+ */
