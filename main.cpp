@@ -79,6 +79,7 @@ int main(void)
 }
 
 /*
+ * Example Output
  * The numbers are not equal
  * The numbers are close enough
  * The numbers are still close enough
